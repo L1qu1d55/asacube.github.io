@@ -1,0 +1,90 @@
+/*====================
+PCを基本設計にする
+ - 1280px〜：大型PC
+ - 960px〜1279px：小型PC
+ - 600px〜959px：タブレット
+ - 480px〜599px：スマートフォン横
+ - 〜479px：スマートフォン縦
+====================*/
+
+body {
+  color: #4c4c4c;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+canvas {
+  width: 100%;
+  height: 90vh;
+}
+
+h2 {
+  font-size: calc(100% + 1vw);
+}
+
+h3 {
+  font-size: calc(100% + 0.5vw);
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-size: calc(75% + 0.5vw);
+}
+
+a.card {
+  display: inline-block;
+  text-align: left;
+  margin: 3vh 2vw;
+  box-shadow: 0px 0px 5px rgb(200, 200, 200);
+}
+
+a.card:hover {
+  transition: 0.25s;
+  box-shadow: 0px 0px 15px rgb(180, 180, 180);
+}
+
+img {
+  width: 300px;
+}
+
+div.cardList {
+  text-align: center;
+  padding: 2vh 6vw;
+}
+
+div.imgCard {
+  margin: 0vh 0vw 1vh;
+}
+
+div.docCard {
+  margin: 0vh 2vw 1vh;
+}
+
+header {
+  text-align: center;
+  padding: 5vh;
+  margin: 0vh 0vw 8vh;
+  background: rgb(0, 150, 170)
+}
+
+footer {
+  text-align: center;
+  padding: 5vh;
+}
+
+@media screen and (min-width:960px) and (max-width:1279px) {
+ 
+}
+ 
+@media screen and (min-width:600px) and (max-width:959px) {
+ 
+}
+ 
+@media screen and (min-width:480px) and (max-width:599px) { 
+ 
+}
+
+@media screen and (max-width:479px) { 
+ 
+}
